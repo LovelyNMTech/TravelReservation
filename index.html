@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Travel reservation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <form>
+        <div>
+            <h2>Travel reservation form</h2>
+        </div>
+            <div class="form-group">
+                <label for="fullname">Full Name*</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+        
+            <div class="form-group">
+                <label for="email">Email Address*</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+        
+            <div class="form-group">
+                <label for="package">Select Tour package*</label>
+                    <select id="package" name="package" required>
+                        <option value="">Select Tour package</option>
+                        <option value="New York">Delhi</option>
+                        <option value="Paris">Pune</option>
+                        <option value="Tokyo">Mumbai</option>
+                        <option value="Tokyo">Bengaluru</option>
+                        <option value="Tokyo">Kolkata</option>
+                        <option value="Tokyo">Chennai</option>
+                  </select>
+            </div>
+              
+            <div class="form-group">
+                <label for="arrival">Arrival date*</label>
+                <input type="date" id="arrival" name="arrival" required>
+            </div>
+              
+            <div class="form-group">
+                <label for="Person">Number of Persons*</label>
+                <input type="number" id="persons" name="persons" max="5" required>
+            </div>
+        
+            <div class="form-group1">
+                <label>Which facilities you want to avail*</label>
+                <br> <br>
+                <label class="lbl" for="Boarding">Boarding</label>
+                <input type="checkbox" class="checkbox" id="facility1" name="facility1" value="facility1">
+                <br> <br>
+                <label class="lbl" for="Food">Fooding</label>
+                <input type="checkbox" class="checkbox" id="facility2" name="facility2" value="facility2">
+                <br> <br>
+                <label class="lbl" for="Visuals">Sight seeing</label>
+                <input type="checkbox" class="checkbox" id="facility3" name="facility3" value="facility3">
+                <br> <br>
+                <label class="lbl" for="Room">AC Room</label>
+                <input type="checkbox" class="checkbox" id="facility4" name="facility4" value="facility4">
+                <br> <br>
+                <label class="lbl" for="Photoshoot">Personal Photoshoot</label>
+                <input type="checkbox" class="checkbox" id="facility5" name="facility5" value="facility5">
+            </div>
+                
+            <div class="form-group">
+                <label for="coupon">Coupon code</label>
+                <input type="text" id="coupon" name="coupon">
+            </div>
+        
+            <div class="form-group1">
+                <label>Terms and conditions*</label>
+                <br> </br>
+                <label class="lbl" for="agree">I agree</label>
+                <input type="checkbox" class="checkbox1" id="agree" name="agree" value="agree" required>
+            </div>
+        
+            <button type="submit">Complete Reservation</button>
+    </form>
+</html>
